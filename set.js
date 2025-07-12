@@ -10,11 +10,11 @@ global.session = "https://session-id-8pge.onrender.com";
  
  
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
+SESSION_ID: process.env.SESSION_ID || "PRINCE-MDX~Z6mRY6s1QHjDOrSiU3A3", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
 SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 ANTI_DELETE: process.env.ANTI_DELETE || "inboxonly", // can be set to inboxonly/allchats/true/false
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
+AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "false",
 AUTO_LIKE_EMOJIS: process.env.AUTO_LIKE_EMOJIS || "💛,❤️,💜,🤍,💙", //Input Yours Custom...Can be one Emoji or Multiple Emojis Separated by Commas
 AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "✅️ Status Viewed by prince-mdx", // // Input Yours custom...
@@ -34,14 +34,14 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 BOT_NAME: process.env.BOT_NAME || "𝐏𝐑𝐈𝐍𝐂𝐄 𝐌𝐃𝐗", //  don't change 
 BOT_PIC: process.env.BOT_PIC || "https://raw.githubusercontent.com/Mayelprince/url/main/menun.jpg", //  don't change 
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
-AUTO_BIO: process.env.AUTO_BIO || "false",
+AUTO_BIO: process.env.AUTO_BIO || "yes",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʀɪɴᴄᴇ ᴍᴅx ",
 CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
 WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // Enter value to true for blueticking all messages, or commands for blueticking only commands else false
 AUTO_BLOCK: process.env.AUTO_BLOCK || "333,799", // Add Multiple Country Codes Separated by Comma...
-PRESENCE: process.env.PRESENCE || "online", // Choose one: typing, recording, online, null
+PRESENCE: process.env.PRESENCE || "typing", // Choose one: typing, recording, online, null
 TIME_ZONE: process.env.TIME_ZONE || "Africa/Douala", // Enter yours else leave blank if not sure
 };
 
